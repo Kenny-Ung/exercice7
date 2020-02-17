@@ -24,3 +24,9 @@ body {
     /* margin: 1rem 0; */
     width: 0;
 }
+
+.main-navigation {
+    /* display: block;
+    margin-top: 0.25rem; */
+    font-size: 0.50em;
+}
