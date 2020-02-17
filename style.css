@@ -15,7 +15,13 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
-
+  
+.main-navigation {
+    /* display: block;
+    margin-top: 0.25rem; */
+    font-size: 0.50em;
+}
+  
 .entry .entry-title:before {
     /* background: #767676;
     content: "\020";
@@ -23,10 +29,4 @@ body {
     height: 0;
     /* margin: 1rem 0; */
     width: 0;
-}
-
-.main-navigation {
-    /* display: block;
-    margin-top: 0.25rem; */
-    font-size: 0.50em;
 }
