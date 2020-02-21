@@ -16,6 +16,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/* Mixin */
 /* Entete */
 .main-navigation {
   /* display: block;
@@ -33,7 +34,11 @@ body {
   width: 0;
 }
 
-/* gutenberg */
+/* Gutenberg*/
+.rayure {
+  background-image: repeating-linear-gradient 45deg, black, white, 1vh, 80vh;
+}
+
 .animblock1 {
   -webkit-animation-name: rotation;
           animation-name: rotation;
