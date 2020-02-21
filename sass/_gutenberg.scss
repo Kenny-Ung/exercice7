@@ -1,5 +1,5 @@
 .rayure {
-    @include rayure(repeating-linear-gradient, 45deg, black, white, 1vh, 80vh);
+    @include rayure(45deg, black 10px, white 10px, black 30px, white 15px);
 }
 .animblock1 {
     animation-name:rotation;

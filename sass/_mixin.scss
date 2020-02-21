@@ -1,3 +1,4 @@
-@mixin rayure($type, $deg, $color1, $color2, $sizeX, $sizeY) {
-    background-image: $type($deg, $color1, $color2, $sizeX, $sizeY);
+@mixin rayure($deg, $color1, $color2, $color3, $color4) {
+    height: 2vh;
+    background-image: repeating-linear-gradient($deg, $color1, $color2, $color3, $color4);
 }
