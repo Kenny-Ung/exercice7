@@ -16,6 +16,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/* Mixin */
 /* Entete */
 .main-navigation {
   /* display: block;
@@ -31,5 +32,10 @@ body {
   height: 0;
   /* margin: 1rem 0; */
   width: 0;
+}
+
+/* Gutenberg*/
+.rayure {
+  background-image: repeating-linear-gradient 45deg, black, white, 1vh, 80vh;
 }
 /*# sourceMappingURL=style.css.map */

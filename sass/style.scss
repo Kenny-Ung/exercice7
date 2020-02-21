@@ -15,8 +15,14 @@
 /* Layout */
 @import "_layout.scss";
 
+/* Mixin */
+@import "_mixin.scss";
+
 /* Entete */
 @import "_entete.scss"; 
 
 /* Footer */
-@import "_footer.scss"
+@import "_footer.scss";
+
+/* Gutenberg*/
+@import "_gutenberg.scss";
