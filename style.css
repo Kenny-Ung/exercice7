@@ -32,4 +32,29 @@ body {
   /* margin: 1rem 0; */
   width: 0;
 }
+
+/* gutenberg */
+.animblock1 {
+  -webkit-animation-name: rotation;
+          animation-name: rotation;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(30deg);
+            transform: rotate(30deg);
+  }
+}
+
+/*
+@-webkit-keyframes rotation {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(30deg);}
+}*/
 /*# sourceMappingURL=style.css.map */

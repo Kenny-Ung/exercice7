@@ -1,0 +1,23 @@
+.rayure {
+
+}
+.animblock1 {
+    animation-name:rotation;
+    animation-duration: 6s;
+}
+
+.animblock2 {
+
+}
+
+
+@-webkit-keyframes rotation {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(30deg);}
+}
+
+/*
+@-webkit-keyframes rotation {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(30deg);}
+}*/
