@@ -41,20 +41,42 @@ body {
           animation-duration: 6s;
 }
 
+.animblock2 {
+  -webkit-animation-name: skew;
+          animation-name: skew;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
 @-webkit-keyframes rotation {
   from {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
   }
   to {
-    -webkit-transform: rotate(30deg);
-            transform: rotate(30deg);
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+}
+
+@-webkit-keyframes skew {
+  from {
+    -webkit-transform: skewY(0deg);
+            transform: skewY(0deg);
+  }
+  to {
+    -webkit-transform: skewY(10deg);
+            transform: skewY(10deg);
   }
 }
 
 /*
-@-webkit-keyframes rotation {
-    from {transform:rotate(0deg);}
-    to {transform:rotate(30deg);}
+@keyframes changeCouleur {
+    from {
+        color: white;
+    }
+    to {
+        color:black;
+    }
 }*/
 /*# sourceMappingURL=style.css.map */

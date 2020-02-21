@@ -7,17 +7,27 @@
 }
 
 .animblock2 {
-
+    animation-name:skew;
+    animation-duration:3s;
 }
 
 
 @-webkit-keyframes rotation {
     from {transform:rotate(0deg);}
-    to {transform:rotate(30deg);}
+    to {transform:rotate(10deg);}
+}
+
+@-webkit-keyframes skew {
+    from {transform:skewY(0deg);}
+    to {transform:skewY(10deg);}
 }
 
 /*
-@-webkit-keyframes rotation {
-    from {transform:rotate(0deg);}
-    to {transform:rotate(30deg);}
+@keyframes changeCouleur {
+    from {
+        color: white;
+    }
+    to {
+        color:black;
+    }
 }*/
