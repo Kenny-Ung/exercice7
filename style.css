@@ -69,14 +69,4 @@ body {
             transform: skewY(10deg);
   }
 }
-
-/*
-@keyframes changeCouleur {
-    from {
-        color: white;
-    }
-    to {
-        color:black;
-    }
-}*/
 /*# sourceMappingURL=style.css.map */
