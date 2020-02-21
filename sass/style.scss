@@ -11,25 +11,12 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twentynineteen-enfant
 */
+
 /* Layout */
-body {
-  font-family: 'Roboto', sans-serif;
-}
+@import "_layout.scss";
 
 /* Entete */
-.main-navigation {
-  /* display: block;
-    margin-top: 0.25rem; */
-  font-size: 0.50em;
-}
+@import "_entete.scss"; 
 
 /* Footer */
-.entry .entry-title:before {
-  /* background: #767676;
-    content: "\020";
-    display: block; */
-  height: 0;
-  /* margin: 1rem 0; */
-  width: 0;
-}
-/*# sourceMappingURL=style.css.map */
+@import "_footer.scss"
